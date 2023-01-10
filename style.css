@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&family=Overpass:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans+Condensed:ital,wght@1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,body {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+
+.hero {
+    height: 100vh;
+    width: 100%;
+    background-image: url();
+    background-position: center;
+    font-family: 'Overpass', sans-serif;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
+    font-family: 'Overpass', sans-serif;
+}
+
+.logo {
+    color: white;
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    font-family: 'Overpass', sans-serif;
+}
+
+span {
+    color: crimson;
+    font-family: 'Overpass', sans-serif;
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+    font-family: 'Overpass', sans-serif;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-family: 'Overpass', sans-serif;
+}
+
+nav ul li a:hover {
+    color: crimson;
+    transition: .4s;
+}
+
+.btn {
+    background-color: crimson;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 30px;
+    transition: transform .4s; 
+    font-family: 'Overpass', sans-serif;  
+}
+
+.btn:hover {
+    transform: scale(1.2);
+}
+
+.content {
+    position: absolute;
+    top:50%;
+    left:8%;
+    transform: translateY(-50%);
+    font-family: 'Overpass', sans-serif;
+}
+
+h1 {
+    color: white;
+    margin: 20px 0px 20px;
+    font-size: 85px;
+    font-family: 'Overpass', sans-serif;
+}
+
+h3 {
+    color: white;
+    font-size: 35px;
+    margin-bottom: 50px;
+    font-family: 'Overpass', sans-serif;
+}
+
+h4 {
+    color:lightcoral;
+    letter-spacing: 2px;
+    font-size: 28px;
+    font-family: 'Overpass', sans-serif;
+}
+
+.about {
+    width: 100%;
+    padding: 100px 0px;
+    background-color: #191919;
+    font-family: 'Overpass', sans-serif;
+}
+
+.about img {
+    height: auto;
+    width: 430px;
+}
+
+.about-text {
+    width: 550px;
+    font-family: 'Overpass', sans-serif;
+}
+
+.main {
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: 'Overpass', sans-serif;
+}
+
+.about-text h2 {
+    color: white;
+    font-size: 75px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    font-family: 'Overpass', sans-serif;
+}
+
+.about-text p {
+    color: #fcfc;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+    font-family: 'Overpass', sans-serif;
+}
+
+.skill {
+    background-color: black;
+    padding: 20px;
+}
+
+.title {
+    color: azure;
+    font-family: 'Sofia Sans Condensed', sans-serif;
+    font-weight: lighter;
+    font-size: 25px;
+    margin-left: 50px;
+}
+
+.ai {
+    width: 45px;
+    height: 45px;
+}
+
+.ps {
+    width: 45px;
+    height: 45px;
+}
+
+.html {
+    width: 45px;
+    height: 45px;
+}
+
+.css {
+    width: 45px;
+    height: 45px;
+}
+
+.card {
+    color: aliceblue;
+    margin: 15px;
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    font-family: 'Sofia Sans Condensed', sans-serif;
+    font-weight: bolder;
+    font-size: 22px;
+    flex-direction: row;
+}
+
+footer {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background: #101010;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+footer p:nth-child(1) {
+    font-size: 30px;
+    color: white;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+footer p:nth-child(2) {
+    color: white;
+    font-size: 17px;
+    width: 500px;
+    text-align: center;
+    line-height: 26px;
+}
+
+.social {
+    display: flex;
+}
+
+.social a {
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: crimson;
+    border-radius: 50%;
+    margin: 22px 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.social a:hover {
+    transform: scale(1.3);
+    transition: .3s;
+}
+
+.end {
+    position: absolute;
+    color: crimson;
+    bottom: 35px;
+    font-size: 14px;
+}
